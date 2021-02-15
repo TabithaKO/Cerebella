@@ -2,7 +2,7 @@
 Gesture controlled robotic arm
 
 This project uses computer vision to detect certain human joints in a video frame. The base code for the keypoint detection model is OpenPose model. 
-OpenPose was modified by [person] for TensorFlow 2.x and the result parsing code was based off [this guys] medium post
+OpenPose was modified by [Gunjan Sethi] (https://medium.com/@gsethi2409) for TensorFlow 2.x and the result parsing code was based off Marcelo Rovai's [article](https://towardsdatascience.com/realtime-multiple-person-2d-pose-estimation-using-tensorflow2-x-93e4c156d45f)
 
 I wrote code that calculates the change in position/shape of the arm from frame to frame and transfers those changes to electric motors (Servos) that control the robotic arm.
 
